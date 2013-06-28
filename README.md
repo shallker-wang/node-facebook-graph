@@ -3,18 +3,19 @@ node-facebook-graph
 
 Facebook Graph API in Nodejs.
 
-### Dummy steps
-1, Install and require this package.
-```javascript
-var FacebookGraph = require('facebook-graph');
+## Installation
+```shell
+npm install git://github.com/shallker-wang/node-facebook-graph.git
 ```
 
-2, Create an instance with your Facebook access token.
+### Quick Start
+Require and create an instance with your Facebook access token:
 ```javascript
+var FacebookGraph = require('node-facebook-graph');
 var fbGraph = new FacebookGraph(access_token);
 ```
 
-3, Start to make your API calls.
+Start to make your API calls:
 ```javascript
 fbGraph.api('/me', function(data) {
   console.log('Hello, ' + data.name);
