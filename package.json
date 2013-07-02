@@ -7,5 +7,8 @@
   "repository": {
     "type": "git",
     "url": "https://github.com/shallker-wang/node-facebook-graph.git"
+  },
+  "dependencies": {
+    "bupper": "git://github.com/shallker-wang/bupper.git"
   }
 }
