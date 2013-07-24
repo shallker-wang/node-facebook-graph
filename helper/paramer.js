@@ -34,4 +34,4 @@ var Paramer = function() {
 
 };
 
-module.exports = new Paramer();
+module.exports = Paramer;
