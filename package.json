@@ -1,7 +1,7 @@
 {
   "name": "node-facebook-graph",
   "description": "Facebook Graph API in Nodejs",
-  "version": "0.1.0",
+  "version": "2.0.0",
   "author": "Shallker Wang <shallker.wang@profero.com>",
   "main": "index",
   "repository": {
