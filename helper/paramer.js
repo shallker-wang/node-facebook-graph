@@ -1,6 +1,6 @@
 /* @author shallker.wang@profero.com */
 
-var Param = function() {
+var Paramer = function() {
   this.args = {};
   
   this.set = function(name, value) {
@@ -34,4 +34,4 @@ var Param = function() {
 
 };
 
-module.exports = new Param();
+module.exports = new Paramer();
