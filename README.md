@@ -28,10 +28,10 @@ var fbGraph = new FacebookGraph(access_token);
 Start to make your API calls:
 ```javascript
 var api = fbGraph.api('/me');
-api.pretty(true);
-api.method('GET');
-api.fields(['picture', 'gender', 'name']);
-api.request(function(result, https) {
+api.param('pretty', '0');
+api.param('fields', ['picture', 'gender', 'name'].join(','));
+api.set('method', 'GET');
+api.request(function(result, res) {
   console.log(result);
 })
 ```
