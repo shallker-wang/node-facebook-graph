@@ -9,6 +9,7 @@
     "url": "https://github.com/shallker-wang/node-facebook-graph.git"
   },
   "dependencies": {
-    "bupper": "git://github.com/shallker-wang/bupper.git"
+    "bupper": "git://github.com/shallker-wang/bupper.git",
+    "my-http": "git://github.com/shallker-wang/my-http.git"
   }
 }
